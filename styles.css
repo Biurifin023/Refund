@@ -36,6 +36,7 @@ body {
 
 .logo {
   margin: 3rem 0 2rem;
+
 }
 
 main section {
@@ -303,6 +304,10 @@ aside ul {
 @media (max-width: 620px) {
   .inputs-row {
     flex-direction: column;
+  }
+
+  .logo {
+    padding-left: 1.5rem;
   }
 
   .inputs-row fieldset:last-child input {
